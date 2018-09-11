@@ -47,9 +47,4 @@ public class CategoryDefenitions {
         String productTitle = productPage.grabProductName();
         Assert.assertEquals(firstProductTitle,productTitle);
     }
-
-    @After
-    public void closeDriver(){
-        mainPage.getDriver().quit();
-    }
 }
